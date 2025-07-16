@@ -1,0 +1,47 @@
+body {
+  color: $black;
+  font: 18px $lato;
+}
+
+h1 {
+  color: $white;
+  font: bold 8rem $playfair;
+  font-optical-sizing: auto;
+  text-align: center;
+  line-height: 5rem;
+  letter-spacing: 0.3rem;
+}
+
+h2 {
+  color: $white;
+  font: bold 2rem $lato;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+}
+
+h3 {
+  color: $black;
+  font: bold 30px $playfair;
+  text-align: center;
+}
+
+nav {
+  color: $white;
+  display: flex;
+  font: bold 18px $lato;
+  line-height: 29px;
+  ul {
+    display: flex;
+    list-style: none;
+  }
+}
+
+
+.wrapper {
+  height: 100%;
+  margin: 0 auto;
+  padding: 0 10%;
+  width: 100%;
+
+}
