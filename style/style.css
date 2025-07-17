@@ -297,6 +297,10 @@ header nav {
   padding-top: 20px;
   width: 100%;
 }
+header a {
+  color: #FCFCFC;
+  text-decoration: none;
+}
 
 .logo {
   font: bold 2rem "Playfair Display", serif;
@@ -309,10 +313,6 @@ header nav {
   letter-spacing: 0.1rem;
   justify-content: space-between;
   text-transform: uppercase;
-}
-.headerNav a {
-  color: #FCFCFC;
-  text-decoration: none;
 }
 .headerNav li {
   position: relative;
@@ -332,6 +332,31 @@ header nav {
   left: -10%;
 }
 
+.socials {
+  color: #FCFCFC;
+  font-size: 2rem;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  right: -10%;
+  align-items: center;
+  justify-content: space-between;
+  height: 280px;
+  margin: calc(50vh - 140px) 0 0;
+}
+.socials a {
+  width: 3rem;
+  height: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.socials a:hover {
+  color: #37A8E6;
+  background: rgba(0, 0, 0, 0.2666666667);
+  border-radius: 10px;
+}
+
 .headerContent {
   display: flex;
   height: 100%;
@@ -339,8 +364,9 @@ header nav {
   justify-content: space-between;
   align-items: center;
   width: 100%;
+  position: relative;
 }
 
 .headerText {
-  margin-bottom: 10%;
+  margin-bottom: 100px;
 }
