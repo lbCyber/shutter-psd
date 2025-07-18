@@ -1,0 +1,21 @@
+.galleryBox {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  figure {
+    flex-basis: 31%;
+    position: relative;
+  }
+  figure:hover figcaption {
+    opacity: 1;
+  }
+  figcaption {
+    background: $pinkfade;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    width: 100%;
+  }
+}

@@ -263,8 +263,13 @@ h2 {
 
 h3 {
   color: #232323;
-  font: bold 30px "Playfair Display", serif;
+  font: bold 42px "Playfair Display", serif;
   text-align: center;
+  margin: 2rem auto;
+}
+
+img {
+  width: 100%;
 }
 
 nav {
@@ -278,11 +283,35 @@ nav ul {
   list-style: none;
 }
 
+section {
+  padding: 65px 0;
+}
+section p {
+  font-size: 1.15rem;
+  line-height: 1.7rem;
+}
+
 .wrapper {
   height: 100%;
   margin: 0 auto;
   padding: 0 10%;
   width: 100%;
+}
+
+.about p.more {
+  background: #E7A8E6;
+  cursor: pointer;
+  display: block;
+  font-weight: bold;
+  margin: 40px auto;
+  padding: 10px 40px;
+  text-transform: uppercase;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+.about p.more:hover {
+  background: #37A8E6;
+  color: #FCFCFC;
 }
 
 header {
@@ -334,15 +363,15 @@ header a {
 
 .socials {
   color: #FCFCFC;
-  font-size: 2rem;
+  font-size: 1.8rem;
   display: flex;
   flex-direction: column;
   position: absolute;
   right: -10%;
   align-items: center;
   justify-content: space-between;
-  height: 280px;
-  margin: calc(50vh - 140px) 0 0;
+  height: 240px;
+  margin: calc(50vh - 120px) 0 0;
 }
 .socials a {
   width: 3rem;
@@ -369,4 +398,34 @@ header a {
 
 .headerText {
   margin-bottom: 100px;
+}
+
+.about {
+  background: #F0F5FF;
+}
+.about p {
+  padding: 0 25%;
+  text-align: center;
+}
+
+.galleryBox {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.galleryBox figure {
+  flex-basis: 31%;
+  position: relative;
+}
+.galleryBox figure:hover figcaption {
+  opacity: 1;
+}
+.galleryBox figcaption {
+  background: rgba(167, 120, 182, 0.8);
+  height: 100%;
+  left: 0;
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  width: 100%;
 }
