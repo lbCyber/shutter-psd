@@ -11,6 +11,10 @@
   }
   figcaption {
     background: $pinkfade;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
     height: 100%;
     left: 0;
     position: absolute;
@@ -18,4 +22,36 @@
     top: 0;
     width: 100%;
   }
+}
+
+.socialsGallery {
+  display: flex;
+  justify-content: space-around;
+  width: 80%;
+  a {
+    align-items: center;
+    color: $white;
+    display: flex;
+    height: 2rem;
+    justify-content: center;
+    text-decoration: none;
+    width: 2rem;
+  }
+  a:hover {
+    color: $accent;
+    background: #0004;
+    border-radius: 10px;
+  }
+}
+
+.galleryText {
+  border-top: solid 1px $white;
+  color: $white;
+  cursor: default;
+  display: block;
+  font-size: .8rem;
+  line-height: 1.3rem;
+  padding: 1rem 0;
+  text-align: center;
+  width: 80%;
 }

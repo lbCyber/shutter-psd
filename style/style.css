@@ -269,6 +269,7 @@ h3 {
 }
 
 img {
+  display: block;
   width: 100%;
 }
 
@@ -294,7 +295,8 @@ section p {
 .wrapper {
   height: 100%;
   margin: 0 auto;
-  padding: 0 10%;
+  max-width: 1280px;
+  padding: 0 80px;
   width: 100%;
 }
 
@@ -367,7 +369,7 @@ header a {
   display: flex;
   flex-direction: column;
   position: absolute;
-  right: -10%;
+  right: -75px;
   align-items: center;
   justify-content: space-between;
   height: 240px;
@@ -422,10 +424,46 @@ header a {
 }
 .galleryBox figcaption {
   background: rgba(167, 120, 182, 0.8);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
   height: 100%;
   left: 0;
   position: absolute;
   opacity: 0;
   top: 0;
   width: 100%;
+}
+
+.socialsGallery {
+  display: flex;
+  justify-content: space-around;
+  width: 80%;
+}
+.socialsGallery a {
+  align-items: center;
+  color: #FCFCFC;
+  display: flex;
+  height: 2rem;
+  justify-content: center;
+  text-decoration: none;
+  width: 2rem;
+}
+.socialsGallery a:hover {
+  color: #37A8E6;
+  background: rgba(0, 0, 0, 0.2666666667);
+  border-radius: 10px;
+}
+
+.galleryText {
+  border-top: solid 1px #FCFCFC;
+  color: #FCFCFC;
+  cursor: default;
+  display: block;
+  font-size: 0.8rem;
+  line-height: 1.3rem;
+  padding: 1rem 0;
+  text-align: center;
+  width: 80%;
 }
