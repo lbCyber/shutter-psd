@@ -1,0 +1,11 @@
+.infoBox {
+  display: flex;
+  img {
+    flex-basis: 25%;
+    margin: 0 30px;
+  }
+}
+
+.infoText {
+  flex-basis: 75%;
+}

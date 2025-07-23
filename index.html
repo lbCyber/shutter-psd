@@ -1,192 +1,199 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="referrer" content="strict-origin" />
-    <title>Shutter</title>
-    <link rel="stylesheet" href="./style/style.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
-      rel="stylesheet"
-    />
-  </head>
-  <body>
-    <header>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="referrer" content="strict-origin" />
+  <title>Shutter</title>
+  <link rel="stylesheet" href="./style/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+  <header>
+    <div class="wrapper">
+      <div class="headerContent">
+        <nav>
+          <p class="logo"><a href="#">Shutter</a></p>
+          <ul class="headerNav">
+            <li><a href="#">home</a></li>
+            <li><a href="#">about</a></li>
+            <li><a href="#">blog</a></li>
+            <li><a href="#">contact</a></li>
+          </ul>
+        </nav>
+        <div class="socials">
+          <a href="#"><i class="fa-brands fa-bluesky"></i></a>
+          <a href="#"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#"><i class="fa-brands fa-tiktok"></i></a>
+          <a href="#"><i class="fa-brands fa-tumblr"></i></a>
+        </div>
+        <div class="headerText">
+          <h2>welcome to</h2>
+          <h1>Shutter</h1>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main>
+    <section class="about" id="about">
       <div class="wrapper">
-        <div class="headerContent">
-          <nav>
-            <p class="logo"><a href="#">Shutter</a></p>
-            <ul class="headerNav">
-              <li><a href="#">home</a></li>
-              <li><a href="#">about</a></li>
-              <li><a href="#">blog</a></li>
-              <li><a href="#">contact</a></li>
-            </ul>
-          </nav>
-          <div class="socials">
-            <a href="#"><i class="fa-brands fa-bluesky"></i></a>
-            <a href="#"><i class="fa-brands fa-instagram"></i></a>
-            <a href="#"><i class="fa-brands fa-tiktok"></i></a>
-            <a href="#"><i class="fa-brands fa-tumblr"></i></a>
-          </div>
-          <div class="headerText">
-            <h2>welcome to</h2>
-            <h1>Shutter</h1>
+        <h3>About Shutter</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta
+          alias doloribus vel, modi inventore illum tempore facere fugit
+          debitis in veniam quibusdam voluptate eligendi ad dolorum placeat
+          dicta dolor!
+        </p>
+        <p class="more">find out more</p>
+      </div>
+    </section>
+    <section class="gallery" id="gallery">
+      <div class="wrapper">
+        <div class="galleryBox">
+          <figure>
+            <img src="./assets/asset-2.jpg" alt="Two palm trees at sunset" />
+            <figcaption>
+              <div class="socialsGallery">
+                <a href="#"><i class="fa-brands fa-bluesky"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-tiktok"></i></a>
+                <a href="#"><i class="fa-brands fa-tumblr"></i></a>
+              </div>
+              <p class="galleryText">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, minus itaque praesentium vel eum fugiat.</p>
+            </figcaption>
+          </figure>
+          <figure>
+            <img src="./assets/asset-3.jpg" alt="A jar filled with strands of LED lights over a bokeh background" />
+            <figcaption>
+              <div class="socialsGallery">
+                <a href="#"><i class="fa-brands fa-bluesky"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-tiktok"></i></a>
+                <a href="#"><i class="fa-brands fa-tumblr"></i></a>
+              </div>
+              <p class="galleryText">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quia! Cupiditate nobis reiciendis et molestias?</p>
+            </figcaption>
+          </figure>
+          <figure>
+            <img src="./assets/asset-4.jpg" alt="Cars driving along a wet city road at sunset" />
+            <figcaption>
+              <div class="socialsGallery">
+                <a href="#"><i class="fa-brands fa-bluesky"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-tiktok"></i></a>
+                <a href="#"><i class="fa-brands fa-tumblr"></i></a>
+              </div>
+              <p class="galleryText">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quos voluptatibus atque adipisci inventore vitae. Beatae.</p>
+            </figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+    <section class="options">
+      <div class="wrapper">
+        <ul class="icons">
+          <li>
+            <i class="fa-solid fa-images"></i>
+            <h4>Gallery</h4>
+          </li>
+          <li>
+            <i class="fa-solid fa-camera"></i>
+            <h4>Photo Tips</h4>
+          </li>
+          <li>
+            <i class="fa-solid fa-image"></i>
+            <h4>About</h4>
+          </li>
+          <li>
+            <i class="fa-solid fa-envelope"></i>
+            <h4>Contact</h4>
+          </li>
+
+        </ul>
+      </div>
+    </section>
+    <section class="info">
+      <div class="wrapper">
+        <div class="infoBox">
+          <img src="./assets/asset-6.jpg" alt="A photographer with long hair pointing her camera to the left" />
+          <div class="infoText">
+            <h3>Behind the Lens</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti
+              dolore velit voluptates, quisquam sint vitae dolorem a rem. Dolorum
+              natus saepe neque quis. Molestias explicabo aperiam voluptatibus
+              deleniti excepturi labore tempore, quae sit nihil sequi voluptates
+              eos vitae laborum, exercitationem recusandae at adipisci fugiat
+              blanditiis. Odio consectetur, labore qui, harum non natus quis minus
+              atque dolorem amet, placeat et pariatur nisi? Aut, labore modi, fuga
+              deleniti adipisci expedita soluta dolorum rerum illo unde enim quas.
+            </p>
+            <p class="more">find out more</p>
           </div>
         </div>
       </div>
-    </header>
-    <main>
-      <section class="about" id="about">
-        <div class="wrapper">
-          <h3>About Shutter</h3>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta
-            alias doloribus vel, modi inventore illum tempore facere fugit
-            debitis in veniam quibusdam voluptate eligendi ad dolorum placeat
-            dicta dolor!
-          </p>
-          <p class="more">find out more</p>
-        </div>
-      </section>
-      <section class="gallery" id="gallery">
-        <div class="wrapper">
-          <div class="galleryBox">
-            <figure>
-              <img src="./assets/asset-2.jpg" alt="Two palm trees at sunset" />
-              <figcaption>
-                <div class="socialsGallery">
-                  <a href="#"><i class="fa-brands fa-bluesky"></i></a>
-                  <a href="#"><i class="fa-brands fa-instagram"></i></a>
-                  <a href="#"><i class="fa-brands fa-tiktok"></i></a>
-                  <a href="#"><i class="fa-brands fa-tumblr"></i></a>
-                </div>
-                <p class="galleryText">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, minus itaque praesentium vel eum fugiat.</p>
-              </figcaption>
-            </figure>
-            <figure>
-              <img
-                src="./assets/asset-3.jpg"
-                alt="A jar filled with strands of LED lights over a bokeh background"
-              />
-              <figcaption>
-                <div class="socialsGallery">
-                  <a href="#"><i class="fa-brands fa-bluesky"></i></a>
-                  <a href="#"><i class="fa-brands fa-instagram"></i></a>
-                  <a href="#"><i class="fa-brands fa-tiktok"></i></a>
-                  <a href="#"><i class="fa-brands fa-tumblr"></i></a>
-                </div>
-                <p class="galleryText">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quia! Cupiditate nobis reiciendis et molestias?</p>
-              </figcaption>
-            </figure>
-            <figure>
-              <img
-                src="./assets/asset-4.jpg"
-                alt="Cars driving along a wet city road at sunset"
-              />
-              <figcaption>
-                <div class="socialsGallery">
-                  <a href="#"><i class="fa-brands fa-bluesky"></i></a>
-                  <a href="#"><i class="fa-brands fa-instagram"></i></a>
-                  <a href="#"><i class="fa-brands fa-tiktok"></i></a>
-                  <a href="#"><i class="fa-brands fa-tumblr"></i></a>
-                </div>
-                <p class="galleryText">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quos voluptatibus atque adipisci inventore vitae. Beatae.</p>
-              </figcaption>
-            </figure>
-          </div>
-        </div>
-      </section>
-      <section class="options">
-        <div class="wrapper">
-          <h4>Gallery</h4>
-          <h4>Photo Tips</h4>
-          <h4>About</h4>
-          <h4>Contact</h4>
-        </div>
-      </section>
-      <section class="info">
-        <div class="wrapper">
-          <img
-            src="./assets/asset-6.jpg"
-            alt="A photographer with long hair pointing her camera to the left"
-          />
-          <h3>Behind the Lens</h3>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti
-            dolore velit voluptates, quisquam sint vitae dolorem a rem. Dolorum
-            natus saepe neque quis. Molestias explicabo aperiam voluptatibus
-            deleniti excepturi labore tempore, quae sit nihil sequi voluptates
-            eos vitae laborum, exercitationem recusandae at adipisci fugiat
-            blanditiis. Odio consectetur, labore qui, harum non natus quis minus
-            atque dolorem amet, placeat et pariatur nisi? Aut, labore modi, fuga
-            deleniti adipisci expedita soluta dolorum rerum illo unde enim quas.
-          </p>
-          <p class="more">find out more</p>
-        </div>
-      </section>
-      <section class="boxes">
-        <div class="box1">
-          <h3>Nature & Scenery</h3>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-            Voluptatibus quisquam illum error hic, ratione quas. Soluta non qui
-            voluptatibus vitae porro corrupti quisquam. Corporis quaerat, alias
-            ad laudantium itaque possimus.
-          </p>
-          <p class="more">read more</p>
-          <div class="boxImg"></div>
-        </div>
-        <div class="box2">
-          <h3>Candid Photography</h3>
-          <p>
-            Neque labore beatae saepe laborum tenetur recusandae, repudiandae
-            laudantium impedit provident incidunt sunt repellendus! Aut dolorum
-            asperiores laborum voluptates ratione accusamus consequatur sit ab
-            officia nulla excepturi, similique modi odio?
-          </p>
-          <p class="more">read more</p>
-          <div class="boxImg"></div>
-        </div>
-      </section>
-    </main>
-    <footer>
-      <div class="wrapper">
-        <div class="foot1">
-          <h5>contact</h5>
-          <p>info@email.com</p>
-          <p>123-456-7890</p>
-          <p>123 some road</p>
-          <p>Toronto, ON</p>
-        </div>
-        <div class="foot2">
-          <h5>stay updated</h5>
-          <p>Subscribe to our newsletter to stay updated</p>
-          <form action="">
-            <input type="email" placeholder="email address" />
-            <button>subscribe</button>
-          </form>
-        </div>
-        <div class="foot3">
-          <nav>
-            <ul>
-              <li><a href="">home</a></li>
-              <li><a href="">about</a></li>
-              <li><a href="">blog</a></li>
-              <li><a href="">contact</a></li>
-            </ul>
-          </nav>
-        </div>
+    </section>
+    <section class="boxes">
+      <div class="box1">
+        <h3>Nature & Scenery</h3>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+          Voluptatibus quisquam illum error hic, ratione quas. Soluta non qui
+          voluptatibus vitae porro corrupti quisquam. Corporis quaerat, alias
+          ad laudantium itaque possimus.
+        </p>
+        <p class="more">read more</p>
+        <div class="boxImg"></div>
       </div>
-      <div class="copy">Copyright &copy; Shutter 2025</div>
-    </footer>
-    <script src="./js/script.js"></script>
-    <script
-      src="https://kit.fontawesome.com/c2378df1a5.js"
-      crossorigin="anonymous"
-    ></script>
-  </body>
+      <div class="box2">
+        <h3>Candid Photography</h3>
+        <p>
+          Neque labore beatae saepe laborum tenetur recusandae, repudiandae
+          laudantium impedit provident incidunt sunt repellendus! Aut dolorum
+          asperiores laborum voluptates ratione accusamus consequatur sit ab
+          officia nulla excepturi, similique modi odio?
+        </p>
+        <p class="more">read more</p>
+        <div class="boxImg"></div>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <div class="wrapper">
+      <div class="foot1">
+        <h5>contact</h5>
+        <p>info@email.com</p>
+        <p>123-456-7890</p>
+        <p>123 some road</p>
+        <p>Toronto, ON</p>
+      </div>
+      <div class="foot2">
+        <h5>stay updated</h5>
+        <p>Subscribe to our newsletter to stay updated</p>
+        <form action="">
+          <input type="email" placeholder="email address" />
+          <button>subscribe</button>
+        </form>
+      </div>
+      <div class="foot3">
+        <nav>
+          <ul>
+            <li><a href="">home</a></li>
+            <li><a href="">about</a></li>
+            <li><a href="">blog</a></li>
+            <li><a href="">contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+    <div class="copy">Copyright &copy; Shutter 2025</div>
+  </footer>
+  <script src="./js/script.js"></script>
+  <script src="https://kit.fontawesome.com/c2378df1a5.js" crossorigin="anonymous"></script>
+</body>
+
 </html>
